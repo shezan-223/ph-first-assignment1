@@ -149,9 +149,25 @@
   } 
   .ready-text{
     font-size: 50px; 
-    font-weight: bold;
+    font-weight: bold; 
   }
   .temp-text{
     color: rgba(0, 0, 0, 0.5);
   }
+  .second-last{
+    display: flex; justify-content: center; align-items: center; justify-content: space-between; width:1140px ;
+    height: 632px; text-align: center;  margin:92px 150px ;box-shadow:14px 14px 20px black ;  border-radius: 10px;
+  }
+  .input-styles{
+    display: block; text-align: center; justify-content: center; 
+    border-right: 50px; border: none; box-shadow:10px 4px 10px  ; color: rgba(0, 0, 0, 0.5);width: 229px;
+    height: 48px;}
+
+  .getintouch{
+    font-size: 50px; text-align: center ; justify-items: center; align-items: center; 
+  }
   
+  .inputs{ column-span: 2px ; 
+  
+  }
+ 
