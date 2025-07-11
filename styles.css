@@ -155,19 +155,34 @@
     color: rgba(0, 0, 0, 0.5);
   }
   .second-last{
-    display: flex; justify-content: center; align-items: center; justify-content: space-between; width:1140px ;
-    height: 632px; text-align: center;  margin:92px 150px ;box-shadow:14px 14px 20px black ;  border-radius: 10px;
+    display: flex; justify-content: center; align-items: center; justify-content: space-between;  ;
+    height: 632px; text-align: center;  margin:92px 150px ; /*box-shadow:14px 14px 20px black ;  */border-radius: 10px;
   }
   .input-styles{
     display: block; text-align: center; justify-content: center; 
     border-right: 50px; border: none; box-shadow:10px 4px 10px  ; color: rgba(0, 0, 0, 0.5);width: 229px;
-    height: 48px;}
+    height: 48px; border-radius: 5px;}
 
   .getintouch{
-    font-size: 50px; text-align: center ; justify-items: center; align-items: center; 
+    font-size: 50px; text-align: center ; justify-items: center; align-items: center;  margin: 0 auto;
   }
   
   .inputs{ column-span: 2px ; 
   
   }
- 
+  
+  .main{
+    text-align: center; color: #4E47FF;
+  }
+  .sub-footer{
+    color: #8987A1;  width: 531px ; height: 48;  margin: 0 auto; margin-bottom: 20px;
+  } 
+ .link {
+  justify-content: space-between; margin-right: 20px;
+ }
+  a{ text-decoration: none;  
+  
+ }
+ .link-footer{margin: 1px,20px; color: #8987A1;
+
+ }
