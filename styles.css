@@ -43,7 +43,7 @@
 
   }
    .bg{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image:url(/Assets/Hero-bg.png);
    }
 
    /*main part styling */
@@ -108,33 +108,7 @@
     margin-top: 0%;
   }
 
-  /*.card-container {
-    display: flex; 
 
-  }
-  .card-section h2{
-    text-align: center; height: 49px; font-size: 42px; font-weight: bold; 
-  }
-  .card-container img{
-    width:15px ; height: 20px; 
-  }
-.head-review{
-  font-size: 20px; font-weight: 400px;
-}
-  .sub-review{
-    font: 16px; font-weight: 400; text-align:left;
-  }
-  .full-container{
-     width: 300px; height: 243px;  display: flex; justify-content: space-between;  background-color: aliceblue;
-    }
-
-   .reviewer img{
-    width: 40px;height: 40px; 
-   } 
-    .reviewer{ align-items: center ;  
-    }
-
-  .card-container{}*/
   
    
    .inside-focus img{ display: block; width: 840px; height: 360px; margin-top: 20px; 
