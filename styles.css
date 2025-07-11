@@ -49,15 +49,17 @@
    /*main part styling */
     .main-part{
       display: flex;
-      width: 1140px; height: 328px;
+    height: 328px;
       margin:105px 141px ;
       justify-content: space-between;
       align-items: center;
+      align-content: center; margin-right: 0px;
+      padding-right: 150px;
 
 
     }
   .first-part{
-    width: 517px; height: 49;
+    width: 517px; height: 49; align-items: center; justify-content: center;
     
   }
 
@@ -81,9 +83,9 @@
    /*main page styling */
     .main-page{
       margin: 116px 141px;
-      width: 1140px; height: 306px;
+       height: 306px;
       background-color: rgba(78, 71, 255, 0.1);
-      border-radius: 24px;
+      border-radius: 24px; padding-right: 100px;
     }
  .page-text{
   justify-items: center; text-align: center;
@@ -105,3 +107,51 @@
     color:rgba(0, 0, 0, 0.5) ;
     margin-top: 0%;
   }
+
+  /*.card-container {
+    display: flex; 
+
+  }
+  .card-section h2{
+    text-align: center; height: 49px; font-size: 42px; font-weight: bold; 
+  }
+  .card-container img{
+    width:15px ; height: 20px; 
+  }
+.head-review{
+  font-size: 20px; font-weight: 400px;
+}
+  .sub-review{
+    font: 16px; font-weight: 400; text-align:left;
+  }
+  .full-container{
+     width: 300px; height: 243px;  display: flex; justify-content: space-between;  background-color: aliceblue;
+    }
+
+   .reviewer img{
+    width: 40px;height: 40px; 
+   } 
+    .reviewer{ align-items: center ;  
+    }
+
+  .card-container{}*/
+  
+   
+   .inside-focus img{ display: block; width: 840px; height: 360px; margin-top: 20px; 
+
+   }
+  .focus{ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    text-align: center; background-color: #FFFFFF;
+    border: 1px solid rgb(212, 205, 205); border-radius: 10px; box-shadow:4px 4px 10px black ;
+  } 
+  .ready-text{
+    font-size: 50px; 
+    font-weight: bold;
+  }
+  .temp-text{
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
