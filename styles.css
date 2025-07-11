@@ -46,4 +46,62 @@
     background-image: url(/Assets/Hero-bg.png);
    }
 
- 
+   /*main part styling */
+    .main-part{
+      display: flex;
+      width: 1140px; height: 328px;
+      margin:105px 141px ;
+      justify-content: space-between;
+      align-items: center;
+
+
+    }
+  .first-part{
+    width: 517px; height: 49;
+    
+  }
+
+.up-head{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+  .sub-head{
+    color:rgba(37,36, 50, 0.5) ;
+  }
+  .launch-live{
+    background-color: #4E47FF; color: white;
+  border: none; border-radius: 5px; 
+  font-weight: bold; font-size: 18px; width: 229px;
+  height: 48px;
+  }
+   img{
+    border-radius: 20px; width: 403px; height: 328px;
+   }
+   /*main page styling */
+    .main-page{
+      margin: 116px 141px;
+      width: 1140px; height: 306px;
+      background-color: rgba(78, 71, 255, 0.1);
+      border-radius: 24px;
+    }
+ .page-text{
+  justify-items: center; text-align: center;
+  font-size: 38px; font-weight: bold; margin-top: 50px;
+
+ }
+ .number-parent{
+  display: flex;
+  justify-content: space-between;
+  text-align:center;
+ margin: 80px 142px 50px 142px;
+ }
+ .head-num{
+  font-size: 80px; font-weight: bold; color: #4E47FF;
+  margin-top: 0%; margin-bottom: 0%; 
+ }
+  .sub-num{
+    font-size: 20px; font-weight:300 ; 
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-top: 0%;
+  }
